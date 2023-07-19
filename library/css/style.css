@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Forum';
+    background-color: #0C0C0E;
+}
+
+/* Header */
+div.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0C0C0E;
+    color: rgb(249, 241, 241);
+}
+.header-text{
+    margin-left: 20px ;
+    font-size: 25px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(249, 241, 241);
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    background-image: url(/library/img/Welcome.png) ;
+    height: 600px;
+}
+
+.welcome-text {
+    background-color: #0C0C0E;
+    color: rgb(249, 241, 241);
+    width: 600px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+/* Main */
+main {
+background-color: rgb(249, 241, 241); 
+}
+
+/* About */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.about-head {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-line {
+    border-bottom: 1px solid black ;
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* слайдер */
+
+
+.about-gallery {
+max-width: 1400px;
+margin: 20px auto;
+}
+
+.item img {
+display: block;
+width: 450px;
+height: 560px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+background: #BB945F;
+width: 16px;
+height: 16px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+background: #0C0C0E;
+width: 16px;
+height: 16px;
+}
+
+
+.owl-theme .owl-dots .owl-dot:hover span{
+background: #8E8E8E;
+}
+
+/* Favorites */
+
+#favorites{
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+padding: 0;
+margin: 0;
+margin-bottom: 40px;
+}
+
+.favorites-head {
+font-size: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+align-content: center;
+align-items: center;
+}
+
+.favorites-line {
+border-bottom: 1px solid black ;
+width: 50px;
+margin-bottom: 40px;
+}
+
+.favorites-text {
+font-size: 20px;
+font-weight: bold;
+font-size: 20px;
+max-width: 1400px;
+margin: auto;
+font-family: 'Inter';
+}
+
+/* Favorites bloc */
+
+.favorites-bloc1, 
+.favorites-bloc2, 
+.favorites-bloc3,
+.favorites-bloc4 {
+display: flex;
+flex-direction: column;
+width: 1400px;
+height: 1200px;
+background-color: rgb(249, 241, 241); 
+margin: auto;
+font-family: 'Inter';
+}
+
+/* Бокс 1 */
+
+.favorite-bloc-line1{
+display: flex;
+width: 1400px;
+height: 1150px;
+}
+
+/* Карточка 1 */
+
+.box1 {
+border: 1px solid #0C0C0E;
+width: 590px;
+height: 555px;
+margin: 20px 130px 20px 0px;
+display: inline-block;
+overflow: visible;
+position: relative;
+}
+
+.box1-box{
+display: flex;
+padding: 0;
+margin: 0;
+margin-bottom: 40px;
+}
+
+.box1-head {
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+
+}
+    
+.box1-line {
+border-bottom: 1px solid #BB945F ;
+width: 50px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+.box1-book-name{ 
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+.box1-book-text{ 
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 35px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.box1-button button{
+padding: 10px 20px 10px 20px;
+width: 75px;
+background-color: rgb(249, 241, 241);
+border: 1px solid #0C0C0E;
+font-size: 15px;
+position: absolute;
+top: 500px;
+left: 20px;
+}
+
+.box1-book-img{
+    position: absolute;
+    top: 254px;
+    left: 390px;
+    z-index: 1;
+
+}
+
+.box2-book-img{
+    position: absolute;
+    top: 254px;
+    left: 390px;
+    z-index: 1;
+
+}
+
+/* Карточка 2 */
+
+.box2 {
+border: 1px solid #0C0C0E;
+width: 590px;
+height: 555px;
+margin: 20px 60px 20px 130px;
+display: inline-block;
+overflow: visible;
+position: relative;
+}
+
+.box2-box{
+display: flex;
+padding: 0;
+margin: 0;
+margin-bottom: 40px;
+}
+
+.box2-head {
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+
+.box2-line {
+border-bottom: 1px solid #BB945F ;
+width: 50px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+.box2-book-name{ 
+margin-left: 20px;
+font-weight: bold;
+font-size: 25px;
+line-height: 35px;
+letter-spacing: 2px;
+}
+
+.box2-book-text{ 
+width: 360px;
+margin-top: 20px;
+margin-left: 20px;
+font-size: 15px;
+line-height: 35px;
+text-transform: capitalize;
+letter-spacing: 2px;
+}
+
+.box2-button button{
+padding: 10px 20px 10px 20px;
+width: 75px;
+background-color: rgb(249, 241, 241);
+border: 1px solid #0C0C0E;
+font-size: 15px;
+position: absolute;
+top: 500px;
+left: 20px;
+}
+
+.box2-book-img{
+position: absolute;
+top: 254px;
+left: 390px;
+z-index: 1;
+
+}
+
+/* Линия 2 */
+
+.favorite-bloc-line2{
+display: flex;
+width: 1400px;
+height: 1150px;
+}
+
+.box3 {
+border: 1px solid #0C0C0E;
+width: 590px;
+height: 555px;
+margin: 20px 130px 20px 0px;
+display: inline-block;
+overflow: visible;
+position: relative;
+}
+.box4 {
+border: 1px solid #0C0C0E;
+width: 590px;
+height: 555px;
+margin: 20px 60px 20px 130px;
+display: inline-block;
+overflow: visible;
+position: relative;
+}
+
+.box2-button-own button{
+    padding: 10px 20px 10px 20px;
+    width: 75px;
+    background-color: rgb(249, 241, 241);
+    border: 1px solid #BB945F;
+    color: #BB945F;
+    font-size: 15px;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+
+/* Переключение между блоками */
+
+.tab {
+    overflow: hidden;
+    background-color: rgb(249, 241, 241);
+    margin: auto;
+    max-width: 1400px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Inter';
+}
+
+
+@media(max-width:700px){
+
+    .tab {
+        overflow: hidden;
+        background-color: #f1f1f1;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+
+.winter-box{
+display: flex;
+align-items: center;
+}
+
+.spring-box{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.summer-box{
+margin-left: 90px;
+display: flex;
+align-items: center;
+}
+
+.autumn-box{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 17px;
+    height: 17px;
+    accent-color: black;
+}
+
+label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-weight: normal;
+}
