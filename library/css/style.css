@@ -51,7 +51,7 @@ li a {
 .welcome {
     display: flex;
     align-items: center;
-    background-image: url("/library/img/Welcome.png") ;
+    background-image: url("/library/images/Welcome.png") ;
     background-size: cover;
     height: 600px;
 }
