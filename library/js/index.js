@@ -40,3 +40,19 @@ function openCity(evt, cityName) {
 
 
 document.getElementById("defaultOpen").click();
+
+// Вызов блока
+
+function toggleBlock() {
+    var block = document.getElementById("myBlock");
+    if (block.style.display === "none") {
+      block.style.display = "block";
+    } else {
+      block.style.display = "none";
+    }
+  }
+
+  function showBlock() {
+    var block = document.getElementById("myBlock");
+    block.style.opacity = 1;
+}
